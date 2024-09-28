@@ -1,0 +1,62 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.logo h1{
+    text-decoration: none;
+    color: white;
+    padding-left: 100px;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.linksito a {
+    padding-right: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+
+.box-progetto{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.descrizione-progetto{
+    padding-top: 100px;
+    margin: 100px;
+    color: white;
+}
+
+.galleria-progetto{
+    text-align: center;
+}
+
+
+.foto-social img {
+    width: 58px;
+    height: auto;
+
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    margin-top: 40px;
+    font-size: 34px;
+}
