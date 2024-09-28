@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white !important;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.centro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.centro h1 {
+    font-size: 36px;
+    color: #FF6F3C;
+    margin-bottom: 50px;
+}
+
+.centro h2 {
+    font-size: 24px;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #FF6F3C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sezione-progetto {
+    background-color: #FF6F3C;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sezione-progetto img {
+    width: 200px;
+}
+
+.sezione-progetto h3 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.sezione-progetto p {
+    font-size: 16px;
+}
+
+.sezione-progetto .buttons a {
+    background-color: white;
+    color: #FF6F3C;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    font-size: 14px;
+}
+
+.email {
+    color: #333;
+}
+
+.icone-social {
+    display: flex;
+}
+
+.icone-social a {
+    margin-left: 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.icone-social a img {
+    width: 20px;
+    height: 20px;
+}

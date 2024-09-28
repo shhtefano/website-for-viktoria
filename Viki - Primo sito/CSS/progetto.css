@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white !important;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.box-progetto{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.immagine-progetto{
+    padding: 50px;
+}
+
+.descrizione-progetto{
+    padding-top: 100px;
+    margin: 100px;
+}
+
+.galleria-progetto{
+    margin: 100px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    font-size: 14px;
+}
+
+.email {
+    color: #333;
+}
+
+.icone-social {
+    display: flex;
+}
+
+.icone-social a {
+    margin-left: 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.icone-social a img {
+    width: 20px;
+    height: 20px;
+}

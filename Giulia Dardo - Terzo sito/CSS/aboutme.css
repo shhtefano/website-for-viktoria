@@ -1,0 +1,91 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(105, 154, 250) !important;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 40px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: white;
+}
+
+.about-me img {
+  width: 350px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.about-text {
+  max-width: 500px;
+  text-align: left;
+}
+
+.about-text h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.bottone {
+  background-color: rgb(50, 118, 254) !important;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(105, 154, 250) !important;
+  font-size: 16px;
+  padding: 10px;
+  margin-top:129px
+
+}
+
+.infos {
+  color: #000000;
+}
+
+.icone-social {
+  display: flex;
+}
+
+.icone-social a img {
+  width: 60px;
+  height: 60px;
+}
